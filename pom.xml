@@ -5,7 +5,7 @@
   <packaging>jar</packaging>
   <version>1.2-SNAPSHOT</version>
   <name>Silverpeas Skin</name>
-  <url>http://www.silverpeas.com</url>
+  <url>http://www.silverpeas.org</url>
   <licenses>
     <license>
       <name>GNU Affero General Public License with FLOSS Exception</name>
@@ -42,9 +42,10 @@
   </developers>
 
   <scm>
-    <connection>scm:svn:https://repository.silverpeas.org/svn/silverpeas/services/silverpeas-site-skin/trunk</connection>
-    <url>https://repository.silverpeas.org/svn/silverpeas/services/silverpeas-site-skin/trunk</url>
+    <connection>scm:svn:https://www.silverpeas.org/svn/silverpeas/services/silverpeas-site-skin/trunk</connection>
+    <url>https://www.silverpeas.org/svn/silverpeas/services/silverpeas-site-skin/trunk</url>
   </scm>
+  
   <repositories>
     <repository>
       <id>Silverpeas</id>
