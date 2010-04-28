@@ -3,7 +3,7 @@
   <groupId>com.silverpeas.services</groupId>
   <artifactId>silverpeas-site-skin</artifactId>
   <packaging>jar</packaging>
-  <version>1.2</version>
+  <version>1.3-SNAPSHOT</version>
   <name>Silverpeas Skin</name>
   <url>http://www.silverpeas.org</url>
   <licenses>
@@ -42,8 +42,8 @@
   </developers>
 
   <scm>
-    <connection>scm:svn:https://www.silverpeas.org/svn/silverpeas/services/silverpeas-site-skin/tags/silverpeas-site-skin-1.2</connection>
-    <url>https://www.silverpeas.org/svn/silverpeas/services/silverpeas-site-skin/tags/silverpeas-site-skin-1.2</url>
+    <connection>scm:svn:https://www.silverpeas.org/svn/silverpeas/services/silverpeas-site-skin/trunk</connection>
+    <url>https://www.silverpeas.org/svn/silverpeas/services/silverpeas-site-skin/trunk</url>
   </scm>
   
   <repositories>
