@@ -18,4 +18,23 @@
     <url>https://www.silverpeas.org/svn/silverpeas/services/silverpeas-site-skin/trunk</url>
   </scm>
 
+  <distributionManagement>
+    <repository>
+      <id>silverpeas</id>
+      <name>Repository Silverpeas</name>
+      <layout>default</layout>
+      <url>http://repository.silverpeas.org/nexus/content/repositories/releases/</url>
+    </repository>
+    <snapshotRepository>
+      <id>silverpeas-snapshots</id>
+      <name>Snapshots Repository Silverpeas</name>
+      <layout>default</layout>
+      <url>http://repository.silverpeas.org/nexus/content/repositories/snapshots/</url>
+    </snapshotRepository>
+    <site>
+      <id>silverpeas_repository</id>
+      <url>scp://repository.silverpeas.org/var/www/docs</url>
+    </site>
+  </distributionManagement>
+
 </project>
