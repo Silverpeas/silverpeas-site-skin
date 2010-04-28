@@ -13,6 +13,7 @@
   <name>Silverpeas Skin</name>
 
   <scm>
+    <developerConnection>scm:svn:https://www.silverpeas.org/svn/silverpeas/services/silverpeas-site-skin/trunk</developerConnection>
     <connection>scm:svn:https://www.silverpeas.org/svn/silverpeas/services/silverpeas-site-skin/trunk</connection>
     <url>https://www.silverpeas.org/svn/silverpeas/services/silverpeas-site-skin/trunk</url>
   </scm>
