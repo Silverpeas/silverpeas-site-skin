@@ -10,7 +10,7 @@
   <artifactId>silverpeas-site-skin</artifactId>
   <packaging>jar</packaging>
   <version>1.4-SNAPSHOT</version>
-  <name>Silverpeas Skin</name>
+  <name>Silverpeas Site Skin</name>
 
   <scm>
     <developerConnection>scm:svn:https://www.silverpeas.org/svn/silverpeas/services/silverpeas-site-skin/trunk</developerConnection>
