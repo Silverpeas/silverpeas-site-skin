@@ -1,16 +1,51 @@
 body {
- background: #fff;
- color: #000;
-  padding: 0px 0px 10px 0px;
- }
+	background: #fff;
+	color: #000;
+	padding: 0px 0px 10px 0px;
+	font-family: Arial,Helvetica,sans-serif;
+	font-size:12px;
+	}
+
+h1, h2, h3, h4, h5, p, ul, li, th, td, input, select, code, pre{
+	margin:0; 
+	padding:0;  
+	font-family: Arial,Helvetica,sans-serif;
+	}
 
 h2 {
- background-color: #006600;
+    background:#FFF url("../images/puce-h1.gif") 0 4px no-repeat;
+    color: #333333;
+    text-indent: 30px;
+	font-size: 20px;
+    font-weight: bold;
+    line-height: 36px;
+	border-bottom: 1px solid #CCCCCC;
+    }
+
+#bodyColumn h1 {
+    background:#FFF url("../images/puce-h1.gif") 0 4px no-repeat;
+    color: #333333;
+    text-indent: 30px;
+	font-size: 20px;
+    font-weight: bold;
+    line-height: 36px;
+	border-bottom: 1px solid #CCCCCC;
+    }
+#bodyColumn h1 img { display:none;}
+h3 {
+	background:#DEDEDE url("../images/nw_maj_rond.gif") top left no-repeat;
+ 	color: #333333;
+	font-size: 13px;
+	padding:10px 10px 6px 10px;
+	border-bottom:1px solid #CCC;
  }
 
-h3 {
- background-color: #117b2b;
- }
+
+tt {
+    font-family: monospace;
+	color:#CF8300;
+}
+
 
 .a td {
  background: #ffffff;
@@ -27,60 +62,168 @@ th {
  color: #fff;
  }
 
-div#banner {
- border-top: 1px solid #369;
- border-bottom: 1px solid #003;
- }
+#home {
+	background: url("../images/header-bg-index.jpg") repeat-x scroll 0 -140px transparent;
+	text-align:center;
+	min-height: 400px;
+	}
 
+#home h1 {
+	color: #FFFFFF;
+    font-family: "Century Gothic",Arial,sans-serif;
+    font-size: 40px;
+    line-height: normal;
+    padding-top: 20px;
+	}
+
+#home img {
+	margin:10px 30px 20px 0;
+	}
+
+#home #navcolumn th {
+	background-color:transparent;
+	text-align:center;
+	}
+
+#home #navcolumn th div{
+	background:transparent url("../images/btn_menuG.png") top left no-repeat;
+	line-height:34px;
+	padding-left:7px;
+	width:170px;
+	margin:0 auto;
+	}
+	
+#home #navcolumn th div a, #home #navcolumn th div strong{
+	background:transparent url("../images/btn_menuD.png") top right no-repeat;
+	line-height:34px;
+	padding-left:7px;
+	display:block;
+	color:#333333;
+	font-size:13px;
+	padding-right:7px;
+	}	
+
+#home #navcolumn th div a:hover, #home #navcolumn th div a:focus {
+	color:#006600 !important;
+	}
+
+
+#home .section {
+	padding-top:20px;}
+
+.download {
+	background:transparent url("../images/package.png") top left no-repeat;
+	padding-left:40px;
+	line-height:40px;
+	display:inline-block;
+	}
+
+div#banner {
+	background:#DEDEDE url("../images/bg_header.jpg") top left no-repeat;
+ }
+	
 #banner, #banner td {
  background: #006600;
  color: #fff;
  }
-#banner {
-  border-bottom: 1px solid #fff;
-}
 
 #leftColumn {
- background-color: #ffffff;
- color: #000;
- border-right: 1px solid #aaa;
- border-bottom: 1px solid #aaa;
- border-top: 1px solid #fff;
+	width:212px;
 }
 
 #navcolumn {
- color: #006600;
- border-right: none;
- border-bottom: none;
- border-top: none;
- }
-
-#navcolumn h5 {
-  font-size: inherit;
 }
 
+#navcolumn h5 {
+    background: url("../images/sidebar-top.gif") no-repeat scroll center top transparent;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 39px;
+    text-indent: 12px;
+    width: 200px;
+	color:#525252;
+}
+
+#navcolumn ul {   
+	background-color: #FFFFFF;
+	border:1px solid #CCC;
+	border-top:0;
+    margin:0 0 10px 0;
+    padding:0 5px;
+    width: 188px;
+	}
+#navcolumn ul ul {
+	 margin:0 0 10px 0;
+	 width:auto;
+	 border:0;
+	}
+	
+#navcolumn ul li {
+	margin:0;
+	border-bottom: 1px solid #CCCCCC;
+    font-size: 11px;
+    list-style: none outside none;
+    padding: 5px 0 5px 4px;
+	}
+#navcolumn ul li:last-child{
+	border-bottom: 0px solid #CCCCCC;
+	}
+
+#navcolumn ul li strong {
+	color:#8BC200;
+	}
+	
+#navcolumn ul li a.externalLink, #navcolumn ul li a.externalLink:link,  #navcolumn ul li  a.externalLink:active ,
+#navcolumn ul li a:link {
+	color:#666;
+	}
+
+#navcolumn ul li a:visited,#navcolumn ul li a.externalLink:visited {
+	color:#999;}
+
 #breadcrumbs {
- background-color: #ffffff;
- color: #006600;
- border-top: 1px solid #fff;
- border-bottom: 1px solid #aaa;
+	background-color: #ECFFBF;
+    border-bottom: 1px solid #8BC100;
+	border-top: 1px solid #81C454;
+	color: #333;
+	line-height:24px;
+	padding: 0px 0 0 8px;
+	font-size:11px;
+ }
+ 
+#breadcrumbs .xright {
+	background-color: #79C14E;
+    color: #FFFFFF;
+    padding: 2px 8px;
+	}
+
+#breadcrumbs .xleft {
+    padding: 2px 8px;
+	}
+
+div#footer {
+	background: url("../images/footer-bg.jpg") repeat-x scroll 0 0 #FCFCFC;
+    clear: both;
+    height: 90px;
+    padding-top: 30px;
+	color:#878787;
+	}
+
+div#footer img {
+	border:1px solid #E3E3E3;
+	margin-right:5px;}
+
+.source , fieldset{
+	background: none repeat scroll 0 0 #EBEFE0;
+	border:0;
+    border-left: 5px solid #8DC500;
+    color: #000000;
  }
 
-.source {
- background-color: #fff;
- color: #000;
- border-right: 1px solid #888;
- border-left: 1px solid #888;
- border-top: 1px solid #888;
- border-bottom: 1px solid #888;
- margin-right: 7px;
- margin-left: 7px;
- margin-top: 1em;
- }
-
-.source pre {
- margin-right: 7px;
- margin-left: 7px;
+.source pre , fieldset pre{
+	 margin:7px 0;
+	 padding:0;
+	 color: #000000;
  }
 
 a[name]:hover, #leftColumn a[name]:hover {
@@ -98,7 +241,7 @@ a:visited {
  }
 
 a:active, a:hover, #leftColumn a:active, #leftColumn a:hover {
- color: #9ED55E !important;
+ color: #8CC400 !important;
  text-decoration: none;
  }
 
@@ -111,11 +254,16 @@ a:link.selfref, a:visited.selfref {
   background: url(../images/external-classic.png) left top no-repeat;
   padding-left: 18px;
 }
-a.externalLink, a.externalLink:link, a.externalLink:visited, a.externalLink:active, a.externalLink:hover {
+a.externalLink, a.externalLink:link, a.externalLink:visited, a.externalLink:active  {
   background: url(../images/external-classic.png) right center no-repeat;
   padding-right: 18px;
-  color: #006600;
+  color: #5B8F00;
 }
+
+a.externalLink:hover, a.externalLink:focus{
+  background: url(../images/external-classic-hover.png) right center no-repeat;
+}
+
 
 #legend li.newWindow {
   background: url(../images/newwindow-classic.png) left top no-repeat;
@@ -127,15 +275,7 @@ a.newWindow, a.newWindow:link, a.newWindow:visited, a.newWindow:active, a.newWin
   color: #006600;
 }
 
-h2, h3 {
- margin-top: 1em;
- margin-bottom: 0;
- background-image: url(../images/nw_maj_rond.gif);
- background-repeat: no-repeat;
- color: #fff;
- padding: 5px;
- margin-right: 2px;
-}
+
 
 img.handle {
  border: 0;
@@ -512,24 +652,21 @@ li.selection ul a {
 }
 
 /* font and text properties, exclusive of link indication, alignment, text-indent */
-body, th, td, input, select {
-  font-family: Verdana, Helvetica, Arial, sans-serif;
-}
 
 code, pre {
-  font-family: 'Andale Mono', Courier, monospace;
+  font-family: monospace;
 }
 
-body, h2, h3, #rightcol h2, pre, code, #apphead h2 small, h3, th, td {
+#apphead h2 small, th, td {
   font-size: small;
 }
 
-small, div#footer, div#login, div.tabs th, div.tabs td, input, select, .paginate, .functnbar, .functnbar2, .functnbar3, #breadcrumbs, .courtesylinks, #rightcol div.help, .colbar, .tasknav, body.docs div#toc, #leftColumn, .legend, .bars {
-  font-size: xx-small;
-  voice-family: "\"}\"";
+small, div#login, div.tabs th, div.tabs td, .paginate, .functnbar, .functnbar2, .functnbar3, .courtesylinks, #rightcol div.help, .colbar, .tasknav, body.docs div#toc,  .legend, .bars {
   voice-family: inherit;
   font-size: x-small;
 }
+
+
 
 .tabs td, .tabs th, dt, .tasknav .selfref, #login .username, .selection {
   font-weight: bold;
@@ -553,9 +690,8 @@ li.selection ul {
   margin-bottom: .5em;
 }
 
-p, ul, ol, dl, .bars table {
-  margin-top: .67em;
-  margin-bottom: .67em;
+p, ul, ol, dl, .bars table, li {
+	margin:.67em 0  .67em 2em;
 }
 
 form {
@@ -566,7 +702,7 @@ form {
   margin-right: 0;
   margin-top: 1em;
   padding-right: 12px;
-  margin-left: 190px;
+  margin-left: 230px;
 }
 
 html>body #bodyColumn {
@@ -842,9 +978,7 @@ td.filebrowse h2 {
   width: 12em;
 }
 
-#breadcrumbs {
-  padding: 2px 8px;
-}
+
 
 .legend {
   float: right;

@@ -3,7 +3,7 @@
    <parent>
     <groupId>com.silverpeas</groupId>
     <artifactId>parent</artifactId>
-    <version>6.0</version>
+    <version>17-SNAPSHOT</version>
   </parent>
 
   <groupId>com.silverpeas.services</groupId>
@@ -23,17 +23,17 @@
       <id>silverpeas</id>
       <name>Repository Silverpeas</name>
       <layout>default</layout>
-      <url>http://repository.silverpeas.org/nexus/content/repositories/releases/</url>
+      <url>http://www.silverpeas.org/nexus/content/repositories/releases/</url>
     </repository>
     <snapshotRepository>
       <id>silverpeas-snapshots</id>
       <name>Snapshots Repository Silverpeas</name>
       <layout>default</layout>
-      <url>http://repository.silverpeas.org/nexus/content/repositories/snapshots/</url>
+      <url>http://www.silverpeas.org/nexus/content/repositories/snapshots/</url>
     </snapshotRepository>
     <site>
       <id>silverpeas_repository</id>
-      <url>scp://repository.silverpeas.org/var/www/docs</url>
+      <url>scp://www.silverpeas.org/var/www/docs</url>
     </site>
   </distributionManagement>
 
