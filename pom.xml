@@ -3,7 +3,7 @@
    <parent>
     <groupId>com.silverpeas</groupId>
     <artifactId>parent</artifactId>
-    <version>17-SNAPSHOT</version>
+    <version>16</version>
   </parent>
 
   <groupId>com.silverpeas.services</groupId>
