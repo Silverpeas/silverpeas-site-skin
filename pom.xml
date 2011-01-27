@@ -9,13 +9,13 @@
   <groupId>com.silverpeas.services</groupId>
   <artifactId>silverpeas-site-skin</artifactId>
   <packaging>jar</packaging>
-  <version>1.5</version>
+  <version>1.6-SNAPSHOT</version>
   <name>Silverpeas Site Skin</name>
 
   <scm>
-    <developerConnection>scm:svn:https://www.silverpeas.org/svn/silverpeas/services/silverpeas-site-skin/tags/silverpeas-site-skin-1.5</developerConnection>
-    <connection>scm:svn:https://www.silverpeas.org/svn/silverpeas/services/silverpeas-site-skin/tags/silverpeas-site-skin-1.5</connection>
-    <url>https://www.silverpeas.org/svn/silverpeas/services/silverpeas-site-skin/tags/silverpeas-site-skin-1.5</url>
+    <developerConnection>scm:svn:https://www.silverpeas.org/svn/silverpeas/services/silverpeas-site-skin/trunk</developerConnection>
+    <connection>scm:svn:https://www.silverpeas.org/svn/silverpeas/services/silverpeas-site-skin/trunk</connection>
+    <url>https://www.silverpeas.org/svn/silverpeas/services/silverpeas-site-skin/trunk</url>
   </scm>
 
   <distributionManagement>
